@@ -1,0 +1,13 @@
+
+.anc:link {
+    color:azure;
+    text-decoration: none;
+}
+.anc:hover {
+    color:blueviolet;
+}
+.anc:visited{
+    color:azure;
+}
+      
+      

@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { Component, useState, useEffect } from "react";
+import "./CList.css";
 
 const CList = ()=> {
     const [items, setItems] = useState([]);
@@ -16,7 +17,11 @@ const CList = ()=> {
         <section>
             
             { items.map((item) => (
-                <h1>{item.name}</h1>
+                <div>
+                    <a class = "anc" href= {"/coins/"+item.id}>{item.name}</a>
+                </div>
+                
+
             ))}
         </section>
     );

@@ -32,7 +32,13 @@
   justify-content: center;
   align-items: center;
   
-  font-size:calc(10px + 2vmin);
+  font-size:calc(16px + 2vmin);
+}
+.w:link {
+  color:rgb(41, 34, 34);
+  margin-inline: 5px;
+  justify-content: left;
+  text-decoration: none;
 }
 
 .App-link {

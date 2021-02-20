@@ -1,0 +1,16 @@
+.container {
+    width: 80%;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .one {
+    float: left;
+  }
+  
+  .two {
+    
+    float: right;
+  }
